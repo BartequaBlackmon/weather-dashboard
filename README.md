@@ -27,7 +27,7 @@ A simple web app that allows users to search for a city to get the current weath
 - THEN I am again presented with current and future conditions for that city
 ```
 
-## Usage">OpenWeather API<a></p>
+## Usage
 
 
 - This weather dashboard allows user to search for a city so that they can get the current weather and 5 day forecast.

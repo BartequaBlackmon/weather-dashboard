@@ -66,7 +66,7 @@ function initPage() {
                 let forecastQueryURL =  "https://api.openweathermap.org/data/2.5/forecast?id=" + cityID + "&appid=" + APIKey;
                 axios.get(forecastQueryURL)
                     .then(function (response) {
-                        fivedayEl.classList.remove("d-none");
+                        sevendayEl.classList.remove("d-none");
 
                         // parse response to display forecast for next 5 days
                         const forecastEls = document.querySelectorAll(".forecast");

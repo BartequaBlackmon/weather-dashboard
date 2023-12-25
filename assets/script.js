@@ -14,8 +14,8 @@ function initPage() {
     let searchHistory = JSON.parse(localStorage.getItem("search")) || [];
 
     // assigning a unique API to a variable
-    const APIKey = "ce4b687a6c4bd173e04ade99db95640e";
-
+    const APIKey = "9471c6fce0e7f4dc0e9a7f3b9768a174";
+    
     function getWeather(cityName) {
         // Execute a current weather get request form open weather api
         let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&appid=" + APIKey;

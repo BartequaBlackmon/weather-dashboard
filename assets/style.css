@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  /* Search Section */
+  .col-lg-3 {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+  }
+  
+  h5 {
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group-append .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #clear-history {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  /* Today's Weather */
+  #today-weather {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  #today-weather .card-body {
+    padding: 20px;
+  }
+  
+  #today-weather .city-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  #current-pic {
+    width: 50px;
+    height: 50px;
+  }
+  
+  #today-weather p {
+    margin: 5px 0;
+  }
+  
+  /* 7-Day Forecast */
+  #fiveday-header {
+    margin-top: 20px;
+  }
+  
+  #fiveday-header h3 {
+    font-weight: 700;
+  }
+  
+  .forecast {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .forecast img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .forecast p {
+    margin: 5px 0;
+  }
+  
